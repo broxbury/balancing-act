@@ -1,0 +1,172 @@
+* {
+  font-family: 'Biryani', sans-serif;
+}
+
+.body {
+  background-color: #F5F5F5;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.left-nav{
+  float: left;
+  border: 5px solid black;
+  width: 50px;
+  height: 100vh;
+  position: relative;
+
+}
+
+.left-half {
+  border: 5px solid yellow;
+  height: 100vh;
+  width: 750px;
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+
+}
+
+.right-half {
+  border: 5px solid green;
+  height: 100vh;
+  width:545px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+.logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 0px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+
+}
+
+.dashboard {
+  position: relative;
+  left: 3px;
+  top: 30vh;
+  width: 45px;
+  margin-top: 15px;
+
+}
+
+.blue-button {
+  background: linear-gradient(to right, #1CA3BA, white);
+  height: 100px;
+  width: 728px;
+  border-radius: 3px;
+  text-align: left;
+
+
+}
+
+.manage-accounts {
+  width: 350px;
+  margin: 10px;
+}
+
+.small-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 65px;
+  position: relative;
+  top: 9px;
+  margin-left: 3px;
+}
+.account-bal {
+  background-color: white;
+  height: 100px;
+  margin-right: 22px;
+  margin-top: 15px;
+  width: 205px;
+  border-radius: 3px;
+  text-align: left;
+  padding-left: 20px;
+  display: inline-block;
+
+}
+.blue-rounded {
+  background-color: #1CA3BA;
+  height: 30px;
+  width: 236px;
+  border-radius: 24px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 371px;
+  bottom: 5px;
+  padding-top: 12px;
+}
+
+.left-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+
+
+}
+.welcome {
+
+}
+.section-bar {
+  display: inline-block;
+}
+
+.accounts-text {
+  display: inline-block;
+}
+.accounts {
+  display: inline-block;
+  width: 714;
+  border: 5px solid black;
+  background-color: white;
+  margin-bottom: 15px;
+}
+.bank-right {
+  display: inline-block;
+  font-size: 28px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
+.bank-left {
+  display:inline-block;
+  font-size: 28px;
+  margin-right: 234px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
+.bank-left-amazon {
+  display:inline-block;
+  font-size: 28px;
+  margin-right: 201px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
+.bank-right-amazon {
+  display: inline-block;
+  font-size: 28px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
+.bank-left-southwest{
+  display:inline-block;
+  font-size: 28px;
+  margin-right: 176px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
+.bank-right-southwest {
+  display: inline-block;
+  font-size: 28px;
+  margin-top: 15;
+  margin-bottom: 20;
+}
