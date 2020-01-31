@@ -15,48 +15,46 @@
 
 .left-nav{
   float: left;
-  border: 5px solid black;
-  width: 50px;
+  width: 70px;
   height: 100vh;
   position: relative;
-
+  background-color: white;
 }
 
 .left-half {
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   height: 100vh;
   width: 750px;
   display: inline-block;
   margin-left: 20px;
   position: relative;
-
 }
 
 .right-half {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   height: 100vh;
   width:545px;
   float: right;
   margin-right: 20px;
-  margin-top: 0px;
+  margin-top: 84px;
 }
+
 .logo {
-  width: 50px;
+  width: 67px;
   height: auto;
   margin-bottom: 0px;
   position: absolute;
-  left: 15px;
-  top: 5px;
-
+  left: 10px;
+  top: 13px;
+  z-index: 2;
 }
 
 .dashboard {
   position: relative;
-  left: 3px;
-  top: 30vh;
-  width: 45px;
+  left: 10px;
+  top: 32vh;
+  width: 48px;
   margin-top: 15px;
-
 }
 
 .blue-button {
@@ -65,8 +63,6 @@
   width: 728px;
   border-radius: 3px;
   text-align: left;
-
-
 }
 
 .manage-accounts {
@@ -82,6 +78,7 @@
   top: 9px;
   margin-left: 3px;
 }
+
 .account-bal {
   background-color: white;
   height: 100px;
@@ -92,8 +89,8 @@
   text-align: left;
   padding-left: 20px;
   display: inline-block;
-
 }
+
 .blue-rounded {
   background-color: #1CA3BA;
   height: 30px;
@@ -107,15 +104,10 @@
   padding-top: 12px;
 }
 
-.left-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-
-
-}
 .welcome {
-
+  padding-left: 25px;
+  padding-top: 31px;
+  font-size: 30px;
 }
 .section-bar {
   display: inline-block;
@@ -127,7 +119,7 @@
 .accounts {
   display: inline-block;
   width: 714;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   background-color: white;
   margin-bottom: 15px;
 }
@@ -169,4 +161,48 @@
   font-size: 28px;
   margin-top: 15;
   margin-bottom: 20;
+}
+
+.x-button {
+  z-index: 2;
+  position: relative;
+  top: -83px;
+  left: 695px;
+  width: 10px;
+  height: auto;
+}
+
+.blue-rounded-trans {
+  background-color: #1CA3BA;
+  height: 25px;
+  width: 201px;
+  border-radius: 24px;
+  display: inline-block;
+  margin-left: 84px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.accounts-text-right {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+td {
+  padding-top: 18px;
+  padding-left: 6px;
+  border-bottom: 1px solid #CCCCCC;
+  padding-right: 51px;
+}
+
+table {
+  position: relative;
+  /* right: 31px; */
+  border-collapse: collapse;
+}
+
+.right-half {
+  background-color: white;
+  padding-left: 10px;
+  height: 452px;
 }
