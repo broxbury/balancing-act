@@ -63,13 +63,45 @@ h2 {
   z-index: 2;
 }
 
-.dashboard {
+/* .dashboard {
   position: relative;
   left: 10px;
   top: 32vh;
   width: 48px;
   margin-top: 15px;
+} */
+
+.dashboard-clipboard {
+  position: relative;
+  left: 10px;
+  top: 32vh;
+  width: 48px;
+  margin-top: 15px;
+  margin-right: 6px;
 }
+
+.color-border {
+  border-left: 5px solid #1CA3BA;
+}
+
+.dashboard-wallet {
+  position: relative;
+  left: 10px;
+  top: 32vh;
+  width: 48px;
+  margin-top: 15px;
+  margin-right: 6px;
+}
+
+.dashboard-profile {
+  position: relative;
+  left: 10px;
+  top: 32vh;
+  width: 48px;
+  margin-top: 15px;
+  margin-right: 6px;
+}
+
 
 .blue-button {
   background: linear-gradient(to right, #8ED1DC, #E3F4F6);
@@ -250,4 +282,8 @@ th {
 
 .blue-rounded-trans {
   color: #FFFFFF
+}
+
+.hide {
+  
 }

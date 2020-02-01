@@ -7,10 +7,11 @@
   <main class="main">
     <img class="logo" src="assets/elephant.svg">
     <nav class="left-nav">
-      <img class="dashboard" src="assets/dashboard.svg">
-      <img class="dashboard" src="assets/transactions.svg">
-      <img class="dashboard" src="assets/profile.svg">
+      <img class="color-border dashboard-clipboard" src="assets/dashboard.svg">
+      <img class="dashboard-wallet" src="assets/transactions.svg">
+      <img class="dashboard-profile" src="assets/profile.svg">
     </nav>
+  <section class="hide">
     <section class="left-half">
       <h1>Balancing Act</h1>
       <div class="blue-button">
@@ -127,7 +128,27 @@
           </tr>
       </table>
     </section>
+  </section>  
   </main>
+</body>
+<script src="main.js"></script>
+<main class="main-2">
+  <section class="wallet-page-left">
+    <header class="wallet-header">
+      <h1 class="wallet-heading">Transactions</h1>
+      <button class="wallet-blue"></button>
+      <button class="wallet-white">INFLOW</button>
+      <button class="wallet-white">OUTFLOW</button>
+    </header>
+    <table class="wallet-table"></table>
+  </section>
+  <section class="wallet-page-right">
+    <form class="wallet-form">
+      <h2 class="new-transaction">New Transactions</h2>
+    </form>
+    <button class="log">Log Expense</button>
+  </section>
+</main>
 </body>
 <script src="main.js"></script>
 </html>
