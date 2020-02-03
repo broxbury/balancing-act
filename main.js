@@ -21,7 +21,7 @@ function moveSideBar(){
   clipBoardIcon.classList.add("color-border");
   walletIcon.classList.remove("color-border");
   mainDisapear.style.display = 'initial';
-  hiddenPage.classList.add('hidden')
+  hiddenPage.classList.add('hidden');
 
 }
 
