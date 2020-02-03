@@ -29,7 +29,7 @@ function walletApear(){
   walletIcon.classList.add("color-border");
   clipBoardIcon.classList.remove("color-border");
   mainDisapear.style.display = 'none';
-  hiddenPage.classList.remove('hidden')
+  hiddenPage.classList.remove('hidden');
 
 }
 
